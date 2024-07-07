@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://st2.depositphotos.com/47577860/49681/v/450/depositphotos_496813608-stock-illustration-strawberry-flat-food-drinks-icon.jpg">
+        <title>Frutify</title>
+    </head>
+    <body>
+        <header>
+            <nav class="frutify_navbar-container">
+                <div class="Frutify_paragraph">
+                    <p>Frutify</p>
+                </div>
+                <div class="right_navbar-piece">
+                    <span class="right_navbar-piece-newproduct">
+                        <a href="newProducts.html">+ New Product</a>
+                    </span>
+                    <span class="right_navbar-piece-shop">
+                        <a href="index.html">Shop</a>
+                    </span>
+                    <input type="search" placeholder="Search">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="new_main-layer">
+                <button>Fruits</button>
+                <span>
+                    <select name="select" id="select">
+                        <option value="Price high to low">Price high to low</option>
+                        <option value="Price low to hight">Price low to hight</option>
+                    </select>
+                </span>
+            </div>
+            <div class="filter_and_spacial-offers-container">
+                <div class="filter_container">
+                    <p class="paragraph-filter">Filter</p>
+                    <p class="paragraph-category">Category</p>
+                    <span class="span_of-all">
+                        <select name="all" id="all">
+                            <option value="All">All</option>
+                        </select>
+                    </span>
+                    <p class="paragraph-price">Price</p>
+                    <span class="input_text-container">
+                        <input type="text" placeholder="Min">
+                        <input type="text" placeholder="Max">
+                    </span>
+                    <span class="checkbox_container">
+                        <p class="paragraph-sale">Sale</p>
+                        <input type="checkbox" class="checkbox">
+                    </span>
+                    <span class="button_of-apply">
+                        <a href="index.html">Apply</a>
+                    </span>
+                </div>
+                <div class="special_offers-sales-container-container">
+                    <div class="special_offers-sales-container">
+                        <h1>Special Offer for <span class="goris_apple">Gori’s Apple</span></h1>
+                        <h2>SALE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="no_results-container">
+                <img src="icons/no result icon.svg" alt="No Result">
+                <h2>No Results</h2>
+            </div>
+        </main>
+    </body>
+</html>

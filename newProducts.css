@@ -1,0 +1,265 @@
+* {
+    font-family: "Inconsolata", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar || */
+
+.frutify_navbar-container {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #418DF9;
+}
+
+.Frutify_paragraph {
+    margin: 32px;
+}
+
+.Frutify_paragraph p{
+    color: #FFF;
+    text-shadow: 2px 4px 0px #000;
+    font-family: "Inconsolata", monospace;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.right_navbar-piece {
+    display: flex;
+    padding: 21px 28px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.right_navbar-piece-newproduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 238px;
+    height: 71px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background-color: #FFB800;
+    box-shadow: 2px 4px 0px 0px #000;
+}
+
+.right_navbar-piece-newproduct a {
+    color: #000;
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.right_navbar-piece-shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    height: 71px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFB800;
+    box-shadow: 2px 4px 0px 0px #000;
+    cursor: pointer;
+}
+
+.right_navbar-piece-shop a {
+    color: #000;
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.right_navbar-piece input {
+    color: rgba(37, 43, 66, 0.60);
+    font-size: 24px;
+    font-weight: 500;
+    width: 704px;
+    height: 74px;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    box-shadow: 2px 4px 0px 0px #000;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 1387px;
+    background: linear-gradient(0deg, rgba(255, 184, 0, 0.20) 0%, rgba(255, 184, 0, 0.20) 100%), #FFF;
+}
+
+h1 {
+    width: 312px;
+    height: 50px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sily {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-fruits_container {
+    height: 900px;
+    width: 704px;
+}
+
+.new_fruits-div {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    text-align: left;
+    height: 1100px;
+}
+
+.name_class {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.name_input {
+    width: 704px;
+    height: 72px;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    box-shadow: 2px 4px 0px 0px #000;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.price_sale_name_container {
+    display: flex;
+    flex-direction: row;
+    gap: 474px;
+}
+
+.price_and-sale_input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.price_and_number {
+    display: flex;
+    width: 524px;
+    height: 72px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    box-shadow: 2px 4px 0px 0px #000;
+}
+
+.price_and_number [type="number"] {
+    color: #000;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 900;
+    border: none;
+}
+
+.numbers_dollar {
+    color: #000;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sale_input-container {
+    height: 72px;
+    width: 160px;
+    display: flex;
+    gap: 30px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    box-shadow: 2px 4px 0px 0px #000;
+}
+
+.sale_input-container [type="number"] {
+    color: #000;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 900;
+    height: 34px;
+    width: 60px;
+    border: 0;
+}
+
+.procent {
+    z-index: 5;
+    margin-right: 20px;
+}
+
+.file_upload-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.file_upload-container button {
+
+    width: 218px;
+    height: 61px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFB800;
+    box-shadow: 2px 4px 0px 0px #000;
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.file_upload-container p {
+    color: #000;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.input_text {
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    box-shadow: 2px 4px 0px 0px #000;
+    width: 704px;
+    height: 175px;
+}
+
+.add_fruit-btn {
+    width: 704px;
+    height: 61px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFB800;
+    box-shadow: 2px 4px 0px 0px #000;
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
